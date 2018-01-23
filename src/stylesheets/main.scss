@@ -1,0 +1,26 @@
+.page-home .container {
+  padding: 200px;
+}
+.input-group {
+  margin: 0 auto 40px;
+  width: 300px;
+}
+
+.btn-group {
+  &.tab-button {
+    border: solid 1px #ddd;
+    .close-btn {
+      padding-left: 0;
+    }
+    .btn {
+      &:focus, &:active, &:visited {
+        box-shadow: none;
+        outline: 0;
+      }
+    }
+    &.active-tab {
+      border-bottom: solid 1px red;
+      opacity: 1;
+    }
+  }
+}
